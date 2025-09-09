@@ -40,7 +40,7 @@ export default function Contact() {
         {/* Background Image (left half) */}
         <div className="absolute inset-0 w-150 h-full left-4 top-0 z-0 hidden md:block">
           <img
-            src="/public/pic4.jpg"
+            src="pic4.jpg"
             alt="Contact Us"
             className="w-full h-full object-cover rounded-l-2xl"
           />

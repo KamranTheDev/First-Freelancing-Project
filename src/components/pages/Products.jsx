@@ -3,15 +3,15 @@ import { FaFlask, FaLeaf, FaCapsules } from "react-icons/fa";
 
 export default function Services() {
   return (
-    <section id="services" className="py-16 bg-gray-50 overflow-x-hidden">
-      <div className="max-w-7xl  grid md:grid-cols-2 gap-20 items-center mx-2">
+    <section id="services" className="py-16 bg-gray-50 overflow-x-hidden mx-2">
+      <div className="max-w-7xl  grid md:grid-cols-2 gap-16 items-center ">
         
         {/* Image */}
         <div className="flex justify-center">
           <img
             src="/pic3.png"
             alt="Sourcify Services"
-            className="rounded-xl shadow-lg w-full max-w-md object-cover"
+            className="rounded-xl shadow-lg h-[80vh] max-w-md object-cover "
           />
         </div>
 
@@ -20,7 +20,7 @@ export default function Services() {
           <h4 className="text-blue-600 font-semibold uppercase mb-2">
             What We Offer
           </h4>
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8 ">
             Our Core Business Portfolio
           </h2>
 

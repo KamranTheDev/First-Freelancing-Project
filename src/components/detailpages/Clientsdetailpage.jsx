@@ -67,11 +67,15 @@ export default function Clients() {
       {/* Hero Section */}
       <section>
         <div
-      className="relative h-[65vh] bg-cover bg-center flex items-center justify-center"
-      style={{ backgroundImage: "url('./public/pic4.jpg')" }} // replace with your image
-    >
-      <div className="absolute inset-0 bg-black/40"></div>
-      <h1 className="relative text-5xl font-bold text-white z-10 mt-13">Clients</h1>
+      className="relative h-[65vh] bg-cover bg-center flex items-center justify-center">
+      <img
+            src="abdt/ad1.jpg"
+            alt="Contact Us"
+            className="w-full h-full object-cover rounded-l-2xl"
+          />
+      <div className="absolute inset-0 bg-black/40">
+      <h1 className="relative text-5xl font-bold text-white z-10 mt-54 ml-155">Clients</h1>
+    </div>
     </div>
       </section>
 

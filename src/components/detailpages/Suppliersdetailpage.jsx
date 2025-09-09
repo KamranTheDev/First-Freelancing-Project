@@ -36,11 +36,16 @@ export default function Suppliersdetail() {
       {/* Hero Section */}
       <section>
        <div
-      className="relative h-[65vh] bg-cover bg-center flex items-center justify-center"
-      style={{ backgroundImage: "url('./public/pic3.png')" }} // replace with your image
-    >
-      <div className="absolute inset-0 bg-black/40"></div>
-      <h1 className="relative text-5xl font-bold text-white z-10 mt-13">Suppliers</h1>
+      className="relative h-[65vh] bg-cover bg-center flex items-center justify-center">
+      <img
+            src="pic3.png"
+            alt="Contact Us"
+            className="w-full h-full object-cover rounded-l-2xl"
+          />
+    
+      <div className="absolute inset-0 bg-black/40">
+      <h1 className="relative text-5xl font-bold text-white z-10 mt-53 ml-150">Suppliers</h1>
+    </div>
     </div>
       </section>
 

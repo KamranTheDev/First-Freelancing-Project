@@ -5,11 +5,14 @@ export default function Productdetails() {
     <>
     <section>
     <div
-      className="relative h-[65vh] bg-cover bg-center flex items-center justify-center"
-      style={{ backgroundImage: "url('./public/abdt/ad4.jpg')" }} // replace with your image
-    >
+      className="relative h-[65vh] bg-cover bg-center flex items-center justify-center">
+      <img
+            src="abdt/ad4.jpg"
+            alt="Contact Us"
+            className="w-full h-full object-cover rounded-l-2xl"
+          />
       <div className="absolute inset-0 bg-black/30">
-      <h1 className="relative text-5xl font-bold text-white z-10 mt-50 mx-110 ">Products details</h1>
+      <h1 className="relative text-5xl font-bold text-white z-12 mt-53 mx-125 ">Products details</h1>
     </div>
     </div>
     </section>
@@ -85,19 +88,19 @@ export default function Productdetails() {
     {/* Right Side: Images */}
     <div className="md:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-4">
       <img
-        src="./public/abdt/ad5.jpg" alt="API 1"
+        src="abdt/ad5.jpg" alt="API 1"
         className="w-full h-48 object-cover rounded-lg shadow"
       />
       <img
-        src="./public/abdt/ad6.jpg" alt="API 1"
+        src="abdt/ad6.jpg" alt="API 1"
         className="w-full h-48 object-cover rounded-lg shadow"
       />
       <img
-        src="./public/abdt/ad7.jpg" alt="API 1"
+        src="/abdt/ad7.jpg" alt="API 1"
         className="w-full h-48 object-cover rounded-lg shadow"
       />
       <img
-        src="./public/abdt/ad4.jpg" alt="API 1"
+        src="abdt/ad4.jpg" alt="API 1"
         className="w-full h-48 object-cover rounded-lg shadow"
       />
 
@@ -128,7 +131,7 @@ export default function Productdetails() {
     {/* Right Side: Image */}
     <div className="md:w-1/2">
       <img
-        src="./public/abdt/ad8.jpg"
+        src="abdt/ad8.jpg"
         alt="Nutraceuticals"
         className="rounded-lg shadow-lg w-full"
       />
@@ -162,12 +165,12 @@ export default function Productdetails() {
 
     {/* Right Side: Image Grid */}
     <div className="md:w-1/2 grid grid-cols-3 gap-4">
-      <img src="./public/abdt/ad7.jpg" alt="Packaging 1" className="rounded shadow" />
-      <img src="./public/abdt/ad4.jpg" alt="Packaging 2" className="rounded shadow" />
-      <img src="./public/abdt/ad14.jpg" alt="Packaging 3" className="rounded shadow" />
-      <img src="./public/abdt/ad13.png" alt="Packaging 4" className="rounded shadow" />
-      <img src="./public/abdt/ad10.jpg" alt="Packaging 5" className="rounded shadow" />
-      <img src="./public/abdt/ad15.jpeg" alt="Packaging 6" className="rounded shadow" />
+      <img src="abdt/ad7.jpg" alt="Packaging 1" className="rounded shadow" />
+      <img src="abdt/ad4.jpg" alt="Packaging 2" className="rounded shadow" />
+      <img src="abdt/ad14.jpg" alt="Packaging 3" className="rounded shadow" />
+      <img src="abdt/ad13.png" alt="Packaging 4" className="rounded shadow" />
+      <img src="abdt/ad10.jpg" alt="Packaging 5" className="rounded shadow" />
+      <img src="abdt/ad15.jpeg" alt="Packaging 6" className="rounded shadow" />
     </div>
   </div>
 </section>

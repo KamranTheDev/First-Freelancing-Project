@@ -16,7 +16,7 @@ export default function WhoWeAre() {
       </div>
       <div>
         <img
-          src="./public/abdt/ad2.jpg"
+          src="abdt/ad2.jpg"
           alt="About Sourcify Chemicals"
           className="rounded-2xl shadow-lg"
         />

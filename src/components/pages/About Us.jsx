@@ -36,14 +36,14 @@ export default function About() {
         <div className="relative flex justify-center md:justify-end left-3">
           {/* Portrait Image */}
           <img
-            src="/public/ab 1.png"
+            src="ab1.png"
             alt="Portrait"
             className="w-60 h-[500px] object-cover rounded-lg  border-2 border-gray-200 "
           />
 
           {/* Landscape Image (Overlapping) */}
           <img
-            src="/public/ab 2.png"
+            src="ab2.png"
             alt="Landscape"
             className="absolute -bottom-10 -left-2 w-110 h-70 object-cover rounded-xl border-2 border-gray-200"
           />
