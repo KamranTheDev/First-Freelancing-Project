@@ -74,7 +74,7 @@ export default function Clients() {
             className="w-full h-full object-cover rounded-l-2xl"
           />
       <div className="absolute inset-0 bg-black/40">
-      <h1 className="relative text-5xl font-bold text-white z-10 mt-54 ml-155">Clients</h1>
+      <h1 className="relative text-5xl font-bold text-white z-10 mt-51 ml-142">Clients</h1>
     </div>
     </div>
       </section>

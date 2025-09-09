@@ -12,7 +12,7 @@ export default function Productdetails() {
             className="w-full h-full object-cover rounded-l-2xl"
           />
       <div className="absolute inset-0 bg-black/30">
-      <h1 className="relative text-5xl font-bold text-white z-12 mt-53 mx-125 ">Products details</h1>
+      <h1 className="relative text-5xl font-bold text-white z-10 mt-50 mx-111 ">Products details</h1>
     </div>
     </div>
     </section>

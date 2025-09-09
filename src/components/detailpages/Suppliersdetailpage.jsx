@@ -44,7 +44,7 @@ export default function Suppliersdetail() {
           />
     
       <div className="absolute inset-0 bg-black/40">
-      <h1 className="relative text-5xl font-bold text-white z-10 mt-53 ml-150">Suppliers</h1>
+      <h1 className="relative text-5xl font-bold text-white z-10 mt-50 ml-133">Suppliers</h1>
     </div>
     </div>
       </section>

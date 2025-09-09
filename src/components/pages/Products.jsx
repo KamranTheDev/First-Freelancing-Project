@@ -11,7 +11,7 @@ export default function Services() {
           <img
             src="/pic3.png"
             alt="Sourcify Services"
-            className="rounded-xl shadow-lg h-[65vh] w-full object-cover bg-yellow-200"
+            className="rounded-xl shadow-lg h-[65vh] w-full object-cover bg-gray-50"
           />
         </div>
 
