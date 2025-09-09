@@ -107,7 +107,7 @@ export default function Productdetails() {
 </section>
 {/* Section 5: Nutraceuticals */}
 <section className="py-16 bg-white w-full">
-  <div className="max-w-7xl flex flex-col md:flex-row items-center gap-6 px-4 mx-6">
+  <div className="flex flex-col md:flex-row items-center md:items-start gap-8 mx-16">
     
     {/* Left Side: Text */}
     <div className="md:w-1/2 text-black">
@@ -138,7 +138,7 @@ export default function Productdetails() {
 </section>
 {/* Section 7: Packaging Material and Excipients */}
 <section className="py-16 bg-gray-100 w-full">
-  <div className="max-w-6xl mx-6 flex flex-col md:flex-row items-center gap-8 px-4">
+  <div className="flex flex-col md:flex-row items-center md:items-start gap-8 mx-14">
     
     {/* Left Side: Text */}
     <div className="md:w-1/2 text-black">
