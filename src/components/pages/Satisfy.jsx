@@ -19,37 +19,37 @@ export default function Stats() {
         {/* Customers */}
         <div className="flex flex-col items-center">
           <FaUsers className="text-5xl mb-3" />
-          <h3 className="text-3xl font-bold">
+          <h3 className="text-2xl font-bold">
             {inView && <CountUp start={0} end={190} duration={2} />}+
           </h3>
-          <p className="text-lg mt-2">Satisfied Customers</p>
+          <p className="text-base mt-2">Satisfied Customers</p>
         </div>
 
         {/* APIs */}
         <div className="flex flex-col items-center">
           <FaPills className="text-5xl mb-3" />
-          <h3 className="text-3xl font-bold">
+          <h3 className="text-2xl font-bold">
             {inView && <CountUp start={0} end={450} duration={2.5} />}+
           </h3>
-          <p className="text-lg mt-2">APIs & Excipients Range</p>
+          <p className="text-base mt-2">APIs & Excipients Range</p>
         </div>
 
         {/* Suppliers */}
         <div className="flex flex-col items-center">
           <FaGlobe className="text-5xl mb-3" />
-          <h3 className="text-3xl font-bold">
+          <h3 className="text-2xl font-bold">
             {inView && <CountUp start={0} end={350} duration={2.5} />}+
           </h3>
-          <p className="text-lg mt-2">Worldwide Renowned Suppliers</p>
+          <p className="text-base mt-2">Worldwide Renowned Suppliers</p>
         </div>
 
         {/* Satisfaction */}
         <div className="flex flex-col items-center">
           <FaSmile className="text-5xl mb-3" />
-          <h3 className="text-3xl font-bold">
+          <h3 className="text-2xl font-bold">
             {inView && <CountUp start={0} end={99} duration={2} />}%
           </h3>
-          <p className="text-lg mt-2">Satisfaction</p>
+          <p className="text-base mt-2">Satisfaction</p>
         </div>
 
       </div>

@@ -6,31 +6,31 @@ import "swiper/css/navigation";
 
 export default function Suppliers() {
   const suppliers = [
-    { id: 1, logo: "/public/suppliers/l1.jpg", name: "Supplier One" },
-    { id: 2, logo: "/public/suppliers/l2.jpg", name: "Supplier Two" },
-    { id: 3, logo: "/public/suppliers/l3.jpg", name: "Supplier Three" },
-    { id: 4, logo: "/public/suppliers/l4.jpg", name: "Supplier Four" },
-    { id: 5, logo: "/public/suppliers/l5.jpg", name: "Supplier Five" },
-    { id: 6, logo: "/public/suppliers/l6.jpg", name: "Supplier Six" },
-    { id: 7, logo: "/public/suppliers/l7.jpg", name: "Supplier Seven" },
-    { id: 8, logo: "/public/suppliers/l8.jpg", name: "Supplier Eight" },
-    { id: 9, logo: "/public/suppliers/l9.jpg", name: "Supplier Nine" },
-    { id: 10, logo: "/public/suppliers/l10.jpg", name: "Supplier Ten" },
-    { id: 11, logo: "/public/suppliers/l11.jpg", name: "Supplier Eleven" },
-    { id: 12, logo: "/public/suppliers/l12.jpg", name: "Supplier Twelve" },
-    { id: 13, logo: "/public/suppliers/l13.jpg", name: "Supplier Thirteen" },
-    { id: 14, logo: "/public/suppliers/l14.jpg", name: "Supplier Fourteen" },
-    { id: 15, logo: "/public/suppliers/l15.jpg", name: "Supplier Fifteen" },
-    { id: 16, logo: "/public/suppliers/l16.jpg", name: "Supplier Sixteen" },
-    { id: 17, logo: "/public/suppliers/l17.jpg", name: "Supplier Seventeen" },
-    { id: 18, logo: "/public/suppliers/l18.jpg", name: "Supplier Eighteen" },
-    { id: 19, logo: "/public/suppliers/l19.jpg", name: "Supplier Nineteen" },
-    { id: 20, logo: "/public/suppliers/l20.jpg", name: "Supplier Twenty" },
-    { id: 21, logo: "/public/suppliers/l21.jpg", name: "Supplier Twenty-One" },
-    { id: 22, logo: "/public/suppliers/l22.jpg", name: "Supplier Twenty-Two" }, 
-    { id: 23, logo: "/public/suppliers/l23.jpg", name: "Supplier Twenty-Three" },
-    { id: 24, logo: "/public/suppliers/l24.jpg", name: "Supplier Twenty-Four" },
-    { id: 25, logo: "/public/suppliers/l25.jpg", name: "Supplier Twenty-Five" }
+    { id: 1, logo: "suppliers/l1.jpg", name: "Supplier One" },
+    { id: 2, logo: "suppliers/l2.jpg", name: "Supplier Two" },
+    { id: 3, logo: "suppliers/l3.jpg", name: "Supplier Three" },
+    { id: 4, logo: "suppliers/l4.jpg", name: "Supplier Four" },
+    { id: 5, logo: "suppliers/l5.jpg", name: "Supplier Five" },
+    { id: 6, logo: "suppliers/l6.jpg", name: "Supplier Six" },
+    { id: 7, logo: "suppliers/l7.jpg", name: "Supplier Seven" },
+    { id: 8, logo: "suppliers/l8.jpg", name: "Supplier Eight" },
+    { id: 9, logo: "suppliers/l9.jpg", name: "Supplier Nine" },
+    { id: 10, logo: "suppliers/l10.jpg", name: "Supplier Ten" },
+    { id: 11, logo: "suppliers/l11.jpg", name: "Supplier Eleven" },
+    { id: 12, logo: "suppliers/l12.jpg", name: "Supplier Twelve" },
+    { id: 13, logo: "suppliers/l13.jpg", name: "Supplier Thirteen" },
+    { id: 14, logo: "suppliers/l14.jpg", name: "Supplier Fourteen" },
+    { id: 15, logo: "suppliers/l15.jpg", name: "Supplier Fifteen" },
+    { id: 16, logo: "suppliers/l16.jpg", name: "Supplier Sixteen" },
+    { id: 17, logo: "suppliers/l17.jpg", name: "Supplier Seventeen" },
+    { id: 18, logo: "suppliers/l18.jpg", name: "Supplier Eighteen" },
+    { id: 19, logo: "suppliers/l19.jpg", name: "Supplier Nineteen" },
+    { id: 20, logo: "suppliers/l20.jpg", name: "Supplier Twenty" },
+    { id: 21, logo: "suppliers/l21.jpg", name: "Supplier Twenty-One" },
+    { id: 22, logo: "suppliers/l22.jpg", name: "Supplier Twenty-Two" }, 
+    { id: 23, logo: "suppliers/l23.jpg", name: "Supplier Twenty-Three" },
+    { id: 24, logo: "suppliers/l24.jpg", name: "Supplier Twenty-Four" },
+    { id: 25, logo: "suppliers/l25.jpg", name: "Supplier Twenty-Five" }
   ];
   return (
     <section className="py-20 bg-white" id="suppliers">
@@ -38,7 +38,7 @@ export default function Suppliers() {
         <h2 className="text-3xl font-bold text-gray-800 mb-4">
           Our Suppliers
         </h2>
-        <p className="text-gray-600 max-w-2xl mx-auto mb-10">
+        <p className="text-gray-600 max-w-2xl mx-auto mb-10 text-base">
           At Sourcify Chemicals, we collaborate with internationally reputed
           manufacturers, ensuring compliance with global standards and
           delivering reliable pharmaceutical solutions.
@@ -64,7 +64,7 @@ export default function Suppliers() {
                 <img
                   src={supplier.logo}
                   alt={supplier.name}
-                  className="h-20 object-contain"
+                  className="h-15 object-contain"
                 />
               </div>
             </SwiperSlide>

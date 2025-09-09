@@ -3,15 +3,15 @@ import { FaFlask, FaLeaf, FaCapsules } from "react-icons/fa";
 
 export default function Services() {
   return (
-    <section id="services" className="py-16 bg-gray-50 overflow-x-hidden mx-2">
-      <div className="max-w-7xl  grid md:grid-cols-2 gap-16 items-center ">
+    <section id="services" className="py-16 bg-gray-100">
+      <div className="max-w-7xl grid md:grid-cols-2 gap-14 items-center px-2 mx-6 md:px-8 ">
         
         {/* Image */}
         <div className="flex justify-center">
           <img
             src="/pic3.png"
             alt="Sourcify Services"
-            className="rounded-xl shadow-lg h-[80vh] max-w-md object-cover "
+            className="rounded-xl shadow-lg h-[65vh] w-full object-cover bg-yellow-200"
           />
         </div>
 
@@ -20,7 +20,7 @@ export default function Services() {
           <h4 className="text-blue-600 font-semibold uppercase mb-2">
             What We Offer
           </h4>
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8 ">
+          <h2 className="text-xl md:text-3xl font-bold text-gray-800 mb-8">
             Our Core Business Portfolio
           </h2>
 
@@ -30,13 +30,9 @@ export default function Services() {
               <FaFlask />
             </div>
             <div>
-              <h3 className="text-xl font-semibold mb-2">
-                Active Ingredients
-              </h3>
+              <h3 className="text-xl font-semibold mb-2">Active Ingredients</h3>
               <p className="text-gray-600">
-                We provide a wide range of Active Pharmaceutical Ingredients 
-                that meet global quality standards, ensuring safety and 
-                consistency for our clients’ formulations.
+                We provide a wide range of Active Pharmaceutical Ingredients that meet global quality standards, ensuring safety and consistency for our clients’ formulations.
               </p>
             </div>
           </div>
@@ -49,9 +45,7 @@ export default function Services() {
             <div>
               <h3 className="text-xl font-semibold mb-2">Nutraceuticals</h3>
               <p className="text-gray-600">
-                Our nutraceutical range supports wellness and preventive 
-                healthcare. We partner with trusted manufacturers to bring 
-                innovative natural solutions to the market.
+                Our nutraceutical range supports wellness and preventive healthcare. We partner with trusted manufacturers to bring innovative natural solutions to the market.
               </p>
             </div>
           </div>
@@ -64,9 +58,7 @@ export default function Services() {
             <div>
               <h3 className="text-xl font-semibold mb-2">Excipients</h3>
               <p className="text-gray-600">
-                We deliver high-quality pharmaceutical excipients designed to 
-                enhance formulations, improve stability, and ensure reliable 
-                product performance.
+                We deliver high-quality pharmaceutical excipients designed to enhance formulations, improve stability, and ensure reliable product performance.
               </p>
             </div>
           </div>

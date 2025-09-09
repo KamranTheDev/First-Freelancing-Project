@@ -19,10 +19,10 @@ export default function Productdetails() {
     {/* Section 2: Our Products */}
 <section className="py-12 bg-white text-center max-w-4xl mx-auto px-4">
   <h2 className="text-3xl font-bold mb-8 text-black">Our Products</h2>
-  <p className="text-black ">
+  <p className="text-black text-base ">
     At Sourcify Chemicals, we specialize in providing high-quality APIs and excipients for the pharmaceutical industry. From the beginning, our focus has been on sourcing reliable raw materials from trusted international manufacturers.  
   </p>
-  <p className="text-black ">
+  <p className="text-black text-base ">
     Over the years, we have expanded our portfolio to meet the diverse needs of our clients, ensuring every product meets strict quality standards.  
   </p>
   <p className="text-black ">
@@ -110,7 +110,7 @@ export default function Productdetails() {
 </section>
 {/* Section 5: Nutraceuticals */}
 <section className="py-16 bg-white w-full">
-  <div className="flex flex-col md:flex-row items-center md:items-start gap-8 mx-16">
+  <div className="flex flex-col md:flex-row items-center md:items-start gap-8 mx-12">
     
     {/* Left Side: Text */}
     <div className="md:w-1/2 text-black">
