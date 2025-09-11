@@ -99,7 +99,7 @@ export default function Footer() {
             Kotli Road, Sector F-7, Mirpur Azad Jammu and Kashmir, Pakistan
           </p>
           <p className="text-sm mt-3"> Phone: +92 370 1908682</p>
-          <p className="text-sm"> Phone: +92 347 5554132</p>
+          <p className="text-sm"> Phone: +92 371 0519048</p>
           <p className="text-sm">Email: sourcifychemicals@gmail.com</p>
         </div>
       </div>
